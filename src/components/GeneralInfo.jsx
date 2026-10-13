@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import '../styles/GeneralInfo.css';
 
 export default function GeneralInfo() {
   const [isSubmitted, setIsSubmitted] = useState(false);
